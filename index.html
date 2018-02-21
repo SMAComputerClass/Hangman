@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <div id="page">
+
+    <header>
+      <h1>Hangman Game</h1>
+    </header>
+
+    <main>
+      <section id="HangmanGraphicArea">
+        <img id="HangmanGraphic" src="hangman0.jpg" height="300" width="300">
+      </section>
+<br>
+      <section id="Puzzle Letters Area">
+        <div id="PuzzleBoard">
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+          <div class="PuzzleBoardSquare"></div>
+        </div>
+      </section>
+
+      <p>
+      This puzzle is <span id="wordCount"></span> words.  You have <span id="guessesLeft">10</span> guesses left.  The match is 3 games.
+      <br>
+        Player win count: <span id=playerWinCount>0</span> - Player loss count: <span id=playerLossCount>0</span>
+        <br><br>
+
+      <span id="resultsText"></span><br>
+      <span id="matchResultsText"></span><br>
+      <button id="continueButton" type=button>Continue</button>
+      </p>
+
+
+    </main>
+
+
+    <aside>
+      <h1>Available Letters:</h1>
+      <div id="letterBoard">
+        <div class="letterSquare">A</div>
+        <div class="letterSquare">B</div>
+        <div class="letterSquare">C</div>
+        <div class="letterSquare">D</div>
+        <div class="letterSquare">E</div>
+        <div class="letterSquare">F</div>
+        <div class="letterSquare">G</div>
+        <div class="letterSquare">H</div>
+        <div class="letterSquare">I</div>
+        <div class="letterSquare">J</div>
+        <div class="letterSquare">K</div>
+        <div class="letterSquare">L</div>
+        <div class="letterSquare">M</div>
+        <div class="letterSquare">N</div>
+        <div class="letterSquare">O</div>
+        <div class="letterSquare">P</div>
+        <div class="letterSquare">Q</div>
+        <div class="letterSquare">R</div>
+        <div class="letterSquare">S</div>
+        <div class="letterSquare">T</div>
+        <div class="letterSquare">U</div>
+        <div class="letterSquare">V</div>
+        <div class="letterSquare">W</div>
+        <div class="letterSquare">X</div>
+        <div class="letterSquare">Y</div>
+        <div class="letterSquare">Z</div>
+      </div>
+    </aside>
+
+  </div>
+
+<script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+
+</body>
+
+</html>

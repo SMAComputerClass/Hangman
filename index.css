@@ -1,0 +1,95 @@
+
+body {
+    background-color: #ded29e;
+    font-family:      Tahoma, Geneva, sans-serif;
+    margin:           0px;
+    padding:          0px;
+}
+
+#page {
+    margin:           auto;
+    width:            960px;
+}
+
+header h1 {
+    text-align:       center;
+}
+
+
+main {
+    float:            left;
+    margin-right:     60px;
+    width:            650px;
+}
+
+aside {
+    float:            right;
+    width:            250px;
+}
+
+aside section {
+    background-color: #b3a580;
+    margin:           1em 0px;
+    padding:          0 0.5em;
+}
+
+.HangmanGraphic{
+  font-size: 4em;
+  }
+
+  #letterBoard {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    }
+
+  .letterSquare {
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 3em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .letterSquare:hover {
+    cursor: pointer;
+  }
+
+  #PuzzleBoard {
+    display: flex;
+    width: 600px;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    }
+
+  .PuzzleBoardSquare {
+    height: 50px;
+    width: 50px;
+    font-size: 3em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #resultsText {
+      visibility: hidden;
+      font-size: 2em;
+      }
+    #matchResultsText {
+        visibility: hidden;
+        font-size: 2em;
+        }
+
+    #continueButton {
+      visibility: hidden;
+      }
